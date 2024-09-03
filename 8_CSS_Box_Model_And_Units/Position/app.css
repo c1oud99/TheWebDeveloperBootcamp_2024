@@ -22,7 +22,18 @@ div {
     left: 50px;
 }
 
+#absolute {
+    position: relative;
+}
+
 #absolute #middle {
     position: absolute;
-    top: 50px;
+    top: 1px;
+    left: 1px;
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 0;
+    left: 400px;
 }
